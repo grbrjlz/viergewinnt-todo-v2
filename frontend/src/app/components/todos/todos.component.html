@@ -1,0 +1,40 @@
+
+<div class="form-container">
+    
+    <div [formGroup]="form">
+        <div class="buttonDiv">
+            <h1 class="toDoTitle">ToDos</h1>
+            <button class="removeButton" mat-stroked-button type="button" color="primary" (click)="remove()">Erledigte Todos Entfernen</button>
+        </div>
+        <form class="todo-form">
+            
+            <div class="spacer2" *ngIf="toDos.toDos.length > 0"></div>
+            <mat-selection-list #shoes class="matList" >
+                <mat-list-option [value]="toDo.isSelected" [selected]="toDo.isSelected" (click)="clickItem(toDo)" *ngFor="let toDo of toDos.toDos">
+                    {{toDo.title}}   {{toDo.description ? ',  ': '  '}} {{toDo.description}}
+                </mat-list-option>
+            </mat-selection-list>
+
+            <div class="spacer2" *ngIf="toDos.toDos.length > 0"></div>
+
+            <mat-form-field class="todo-full-width">
+                <mat-label>Neues ToDo</mat-label>
+                <input formControlName="title" matInput>
+            </mat-form-field>
+
+            <mat-form-field class="todo-full-width">
+                <mat-label>Leave a comment</mat-label>
+                <textarea formControlName="description" matInput></textarea>
+            </mat-form-field>
+            <button class="resetButton"mat-stroked-button type="button" color="primary" (click)="reset()">Zurücksetzen</button>
+            <button mat-flat-button type="button" color="primary" (click)="save()">Hinzufügen</button>
+        </form>
+    </div>
+    
+    <app-file-upload>
+    
+    </app-file-upload>
+
+</div>
+
+<app-users></app-users>

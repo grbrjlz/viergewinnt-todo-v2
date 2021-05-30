@@ -1,0 +1,32 @@
+
+<div class="form-container">
+    
+    <div [formGroup]="form">
+        <div class="buttonDiv">
+            <h1 class="Username">User</h1>
+            <button class="removeButton" mat-stroked-button type="button" color="primary" (click)="remove()">User Entfernen</button>
+        </div>
+        <form class="User-form">
+            
+            <div class="spacer2" *ngIf="users.users.length > 0"></div>
+            <mat-selection-list #shoes class="matList" >
+                <mat-list-option [value]="User.isSelected" [selected]="User.isSelected" (click)="clickItem(User)" *ngFor="let User of users.users">
+                    {{User.username}},    ************
+                </mat-list-option>
+            </mat-selection-list>
+
+            <div class="spacer2" *ngIf="users.users.length > 0"></div>
+
+            <mat-form-field class="User-full-width">
+                <mat-label>Neuer User</mat-label>
+                <input formControlName="username" matInput>
+            </mat-form-field>
+
+            <mat-form-field class="User-full-width">
+                <mat-label>Password</mat-label>
+                <input type='password' formControlName="password" matInput>
+            </mat-form-field>
+            <button mat-flat-button type="button" color="primary" (click)="save()">Hinzufügen</button>
+        </form>
+    </div>
+</div>

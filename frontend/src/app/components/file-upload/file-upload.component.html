@@ -1,0 +1,9 @@
+<p>file-upload works!</p>
+
+<form [formGroup]="form" novalidate>
+    <mat-form-field>
+        <ngx-mat-file-input formControlName="file" placeholder="Basic Input">
+        </ngx-mat-file-input>
+    </mat-form-field>
+     <button mat-flat-button type="button" color="primary" (click)="upload()">Upload</button>
+</form>
