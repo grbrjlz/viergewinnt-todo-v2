@@ -103,3 +103,9 @@ dist
 # TernJS port file
 .tern-port
 frontend/package-lock.json
+google_functions/Todos/.DS_Store
+google_functions/Upload/.DS_Store
+google_functions/User/.DS_Store
+google_functions/.DS_Store
+.DS_Store
+.DS_Store
