@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "viergewinnt-ss21",
+    "private_key_id": "0768b24ca13dd7a274643920ffffad7dc2fd6cf4",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCUQ8sEZrqa5X0u\nD00n5dMWuf8oz7ffuJyqdroO51Ud75xtoQ9iZoWWq2BQNwuWMHZDWklgfhjrYsgD\nmzGOshlEgO2dQbSYkByd8YjQoG7kzj+8dEjvlK9tf0QjH2W6WfGZjYbFMfAH+kur\nrXqETXp8YyoAbQQgmXdndq3TUtjyn+rVF2Fc/Qox5dDRuxQqCBBfb/QaJeFfQAOb\ns+13Lnhu2yLTRYIJgzPgr2djUQIw15pX7p5RCg5FpJcycrks2PxS8qGAekmkyY72\nXtX5CM4VsHmeQ4QdNL6HY9/tRfT7pSPaoo8N/8ZMijcnwWGkEy1iWJrb1TVXCJCm\nD1ufkj8HAgMBAAECggEAGJGTVstfKMPWlodalb3z2NRBgBXLtnr1GxpJgqa66BcI\nqPIDhp7OjEUh1KkKdnzZXBfeCOtcXcUkt9RDxg2lOkDTHzgAITfgRhv8O/YZ6jhz\nP1tVqr3MxCxOsjNFvDejXXqiVpML34aOe4hnwPzFy07zatal1HEZ5D86VsZnxOyS\nb9LQTdA/ZTxF2G+4q2PHOT0fMVTi+5wPT35yEE5thecIxiYjlLxCgyxcTCXgbzj6\nieQuOFI+Em5pnU/Qc4aHKhBJqLvCESUFeWgBecIwz1YAwj/nHeIQIMnjxka9BqB1\nlDsJC2GaVoA+FVwjgWP6zX7swNNw9YtDzwPrmyd84QKBgQDLoa1pilqVtCKYjEXr\nRF/lnhpvn95RbRjSF0C2pVSkjzjSuO5T5PNT+5Pt2SSMpDDQYFAvodRCgCbtBTg5\naEW1buE+PhbMUNCv0XYlU4jatdn/IZVEvV0GjtlEwXou2rqgM591GHhPtVKjd7TZ\nftfoLUoYbwaYxfxzly4ccaIipQKBgQC6ZPtEd3E053h3/sv5xcan2vkaJ2VZz6pI\niO9DrDeaoZPSwyWi/vGT6OfQ11jDH/64jNFAqJlPkwimCMxrgsjFUjZzW+h31n4L\nBsuUmbinPt0rv4RxxyhiYbj76OJrk7o7gOdxr+FIMnQZEleRKUxVG46xMwCLMZ6c\nG83a+E7HOwKBgQCUk5D98s8Jb/fWKnNRp//4gBV14MXLz7hOglzbZ2KM91tUlU5/\ntAu++U8EOm2qmJptT/jx6DgBlZPRWP+fE2/ZY9/BFHh593Vs834q2fp+6jT3LL/G\n+gwIHu50dl76FOoavc/ZFlOihQCY+VzhXOWYKINptIixq7P5exNP+bF9aQKBgANO\nCw55t64idIZcJC23jgAn58bI8AkZn4FNvEBM62d4efCAuUgckRf4RzPyvYYoKRII\nnSUyWBWLG9olycoWNY0aGhENjh+h0/ZKFo3588YzXSSLbsO9rj+gT/FXfbw+kEzB\nyli/r5TiICDZrGfMfaf8pxkJOHc/V/qYm5vIT01FAoGAG05GyqBzOXAw/hKW0qjX\nPnhtZSsBhdCmbyTt3rvIb/RQvEJ/pW4mL6fjowUz4GTDkToR3RL8KOeYpPqjn3qS\n33jHlaTzWl/Z10vI/j7CwTDg2+GiYOF9wzMPBPGxsB7xEgm8ZlS4V6m8ZQKQOZ28\nEUOUAzMiSsYC12kZZNjiL5A=\n-----END PRIVATE KEY-----\n",
+    "client_email": "service-user@viergewinnt-ss21.iam.gserviceaccount.com",
+    "client_id": "106769507915832368565",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/service-user%40viergewinnt-ss21.iam.gserviceaccount.com"
+}
+  

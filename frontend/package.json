@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --proxy-config src/proxy.conf.json",
+    "start:proxy": "../cloud_sql_proxy -instances=viergewinnt-ss21:europe-west3:db-viergewinnt=tcp:3306",
     "build": "ng build",
     "docker:build": "docker build -t viergewinnt/frontend:master .",
     "docker:run": "docker run --name frontend --rm -p 80:8080 viergewinnt/frontend:master",

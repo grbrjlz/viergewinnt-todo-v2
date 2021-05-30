@@ -1,5 +1,5 @@
 {
-    "context": ["/User", "/Todos"],
+    "context": ["/User", "/Todos", "/Upload"],
     "target": "https://europe-west3-viergewinnt-ss21.cloudfunctions.net",
     "secure": false,
     "changeOrigin": true
